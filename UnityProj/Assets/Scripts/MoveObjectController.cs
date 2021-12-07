@@ -10,12 +10,10 @@ public class MoveObjectController : MonoBehaviour
 	private GameObject player;
 
 	private const string animBoolName = "isOpen_Obj_";
-
 	private bool playerEntered;
 	private bool showInteractMsg;
 	private GUIStyle guiStyle;
 	private string msg;
-
 	private int rayLayerMask; 
 
 
@@ -62,15 +60,12 @@ public class MoveObjectController : MonoBehaviour
 		}
 	}
 
-
-
 	void Update()
 	{		
 		if (playerEntered)
 		{	
-
 			//center point of viewport in World space.
-			Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f,0.5f,0f));
+			Vector3 rayOrigin = fpsCam.ViewportToWorldPoint(new Vector3(0.5f,0.5f,0.1f));
 			RaycastHit hit;
 
 			//if raycast hits a collider on the rayLayerMask
@@ -105,7 +100,6 @@ public class MoveObjectController : MonoBehaviour
 				showInteractMsg = false;
 			}
 		}
-
 	}
 
 	//is current gameObject equal to the gameObject of other.  check its parents
@@ -141,12 +135,10 @@ public class MoveObjectController : MonoBehaviour
 		}
 			
 		return rtnVal;
-
 	}
 		
 
 	#region GUI Config
-
 	//configure the style of the GUI
 	private void setupGui()
 	{

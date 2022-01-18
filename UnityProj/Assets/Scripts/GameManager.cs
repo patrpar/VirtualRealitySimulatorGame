@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +10,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int moneyOnStart = 200;
 
     private int money = 0;
+    private List<PurchasableFurniture> purchasedFurniture = new List<PurchasableFurniture>();
+
     public int Money { get { return money; } private set { money = value; tablet.SetMoneyText(value); } }
     public int Points { get; private set; } = 0;
     private Tablet tablet;
@@ -30,6 +34,12 @@ public class GameManager : MonoBehaviour
     public void SetTablet(Tablet tablet)
     {
         this.tablet = tablet;
+    }
+
+    public void AddPurchasedFurniture(PurchasableFurniture purchasableFurniture)
+    {
+        purchasedFurniture.Add(purchasableFurniture);
+        Money -= purchasableFurniture.Price;
     }
 
     private void CalculateResult()

@@ -54,7 +54,16 @@ public class Tablet : MonoBehaviour
     {
         if (currentViewedFurniture != null)
         {
-            currentViewedFurniture.Buy();
+            if (GameManager.Instance.Money >= currentViewedFurniture.Price)
+            {
+                //Temporary
+                GameManager.Instance.AddPurchasedFurniture(currentViewedFurniture);
+                Instantiate(currentViewedFurniture.Prefab, transform.root.transform.position + transform.root.forward + Vector3.down, Quaternion.identity);
+                BackToStore();
+
+                Debug.Log("TODO: Buy");
+                //TODO
+            }
         }
     }
 

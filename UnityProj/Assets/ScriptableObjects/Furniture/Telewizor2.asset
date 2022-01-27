@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5711bed39b696c6468c70d431d76dd1b, type: 3}
-  m_Name: Fridge2
+  m_Name: Telewizor2
   m_EditorClassIdentifier: 
-  furnitureName: "Lod\xF3wka A+++++"
+  furnitureName: "Telewizor energooszcz\u0119dny"
   sprite: {fileID: 0}
-  price: 200
-  description: asddas
-  extraPoints: 31
-  energyPrice: 123
-  waterPrice: 312
-  gasPrice: 321
-  prefab: {fileID: 6097422234600117128, guid: 59de3a566f96c9d488f134e37e6e47cd, type: 3}
+  price: 1700
+  description: "Energooszcz\u0119dny"
+  extraPoints: 10
+  energyPrice: 150
+  waterPrice: 0
+  gasPrice: 0
+  prefab: {fileID: 5279217563067476744, guid: ccf97e92a1ed0ba499237c252bccf8dc, type: 3}

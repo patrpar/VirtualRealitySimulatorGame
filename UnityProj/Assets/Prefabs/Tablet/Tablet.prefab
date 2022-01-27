@@ -1749,8 +1749,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   furnitures:
-  - {fileID: 11400000, guid: a81cecde3ceff244db719d87ab78abf6, type: 2}
+  - {fileID: 11400000, guid: 1daf6a0236d8c2c47ac7dc079713f49c, type: 2}
+  - {fileID: 11400000, guid: 197917b4cfc8e8a4cbc5bb3c92d8a6f6, type: 2}
   - {fileID: 11400000, guid: 179bbab7ca2146b42b8c8ac02d10f04b, type: 2}
+  - {fileID: 11400000, guid: 249c7df41c56d144a98ce0120f0618ee, type: 2}
+  - {fileID: 11400000, guid: 41cdf0fc7eb4565408267bc942c30632, type: 2}
+  - {fileID: 11400000, guid: 0002679ab616e1e4d9f8340d86985f4d, type: 2}
+  - {fileID: 11400000, guid: a652001f996802d498549fd8cdf397a9, type: 2}
+  - {fileID: 11400000, guid: 21a682928ccf241418d8588ce3b4e392, type: 2}
+  - {fileID: 11400000, guid: 3220823f3e39bd340a7dd21d455e0eb2, type: 2}
+  - {fileID: 11400000, guid: 56e0a27d65c20a24387e3cf3c10ab6ce, type: 2}
   content: {fileID: 5290490152723451957}
   itemPrefab: {fileID: 6167474427892962107, guid: 4d9b6a74b4c42684eb2f6e282fb9bae9, type: 3}
 --- !u!1 &4318398645523873816

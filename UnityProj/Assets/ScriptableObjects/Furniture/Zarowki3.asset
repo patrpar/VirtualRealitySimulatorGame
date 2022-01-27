@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5711bed39b696c6468c70d431d76dd1b, type: 3}
+  m_Name: Zarowki3
+  m_EditorClassIdentifier: 
+  furnitureName: "Lampa stoj\u0105ca"
+  sprite: {fileID: 0}
+  price: 250
+  description: '-'
+  extraPoints: 10
+  energyPrice: 70
+  waterPrice: 0
+  gasPrice: 0
+  prefab: {fileID: 6466532711704675699, guid: 3a4c745a05ea2e1489d2fa98a82399c6, type: 3}

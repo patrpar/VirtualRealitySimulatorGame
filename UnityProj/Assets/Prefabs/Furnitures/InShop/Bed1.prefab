@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4576318136108567392}
   - component: {fileID: 4576318136107240262}
   - component: {fileID: 4576318136106142086}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BedBlanket
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 1386413402712122893}
   - component: {fileID: 2444170719712176181}
   - component: {fileID: -4636849163818198906}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Bed1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 4576318136108567398}
   - component: {fileID: 4576318136107240260}
   - component: {fileID: 4576318136106142084}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BedBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ GameObject:
   - component: {fileID: 4576318136108567400}
   - component: {fileID: 4576318136107240270}
   - component: {fileID: 4576318136106142094}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BedPillow02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 4576318136108567406}
   - component: {fileID: 4576318136107240268}
   - component: {fileID: 4576318136106142092}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BedPillow01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

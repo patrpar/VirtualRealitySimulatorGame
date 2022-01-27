@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2413377193667715978}
   - component: {fileID: 2413377193666584906}
   - component: {fileID: 8419233195456235267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 6494831097444609884}
   - component: {fileID: 184194454084150183}
   - component: {fileID: -5975347495084224359}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TV3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

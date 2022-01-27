@@ -1764,6 +1764,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: eea03bbe1c30ef34abc5f09f55e7b4a7, type: 2}
   - {fileID: 11400000, guid: 6827b2be7b5aa2349b39993b2e29d5f2, type: 2}
   - {fileID: 11400000, guid: 57ac973d037431445a2d791e49e2ad61, type: 2}
+  - {fileID: 11400000, guid: 572d602af89207846b53375194ea6fdb, type: 2}
+  - {fileID: 11400000, guid: 347fbe8e009994447a386137510c881c, type: 2}
+  - {fileID: 11400000, guid: fb725b68a07423e419f6686cce7561f5, type: 2}
   content: {fileID: 5290490152723451957}
   itemPrefab: {fileID: 6167474427892962107, guid: 4d9b6a74b4c42684eb2f6e282fb9bae9, type: 3}
 --- !u!1 &4318398645523873816

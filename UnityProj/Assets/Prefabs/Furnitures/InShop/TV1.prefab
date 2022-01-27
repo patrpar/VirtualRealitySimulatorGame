@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2413377193667715978}
   - component: {fileID: 2413377193666584906}
   - component: {fileID: 8419233195456235267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TV
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 6494831097444609884}
   - component: {fileID: 184194454084150183}
   - component: {fileID: 8104708851172764098}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: TV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 3.004036, y: 0.85357624, z: 1.1150898}
+  m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2

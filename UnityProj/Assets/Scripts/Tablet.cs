@@ -76,6 +76,6 @@ public class Tablet : MonoBehaviour
 
     public void EndGame()
     {
-        GameManager.Instance.EndGame();
+        GameManager.Instance.CalculateResult();
     }
 }

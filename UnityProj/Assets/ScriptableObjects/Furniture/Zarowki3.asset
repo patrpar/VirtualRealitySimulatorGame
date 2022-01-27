@@ -20,4 +20,4 @@ MonoBehaviour:
   energyPrice: 70
   waterPrice: 0
   gasPrice: 0
-  prefab: {fileID: 6466532711704675699, guid: 3a4c745a05ea2e1489d2fa98a82399c6, type: 3}
+  prefab: {fileID: 4970479751438227489, guid: 3d06efaeec17952498b99027c72c8cff, type: 3}

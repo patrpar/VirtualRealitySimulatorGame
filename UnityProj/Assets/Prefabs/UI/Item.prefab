@@ -28,7 +28,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3138002181417880834}
   m_RootOrder: 0
@@ -165,7 +164,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3933937743357384583}
   - {fileID: 9092884975725716542}
@@ -280,7 +278,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6167474427892962107}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e31fb4478d5ac8141824f94852d159f5, type: 3}
+  m_Script: {fileID: 11500000, guid: 46ac2aeb1b8cd1d4592aa34b9d42baf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   furnitureName: {fileID: 3769665831697832659}
@@ -313,7 +311,6 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3138002181417880834}
   m_RootOrder: 1

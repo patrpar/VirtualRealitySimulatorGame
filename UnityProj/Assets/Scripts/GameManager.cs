@@ -49,23 +49,26 @@ public class GameManager : MonoBehaviour
         GasCost += purchasableFurniture.GasPrice;
         WaterCost += purchasableFurniture.WaterPrice;
         Points += purchasableFurniture.ExtraPoints;
-        switch (Points)
+
+        if (Points >= 85)
         {
-            case >= 85:
-                SetWeather(4);
-                break;
-            case >= 64:
-                SetWeather(3);
-                break;
-            case >= 43:
-                SetWeather(2);
-                break;
-            case >= 22:
-                SetWeather(1);
-                break;
-            case >= 0:
-                SetWeather(0);
-                break;
+            SetWeather(4);
+        }
+        else if (Points >= 64)
+        {
+            SetWeather(3);
+        }
+        else if (Points >= 43)
+        {
+            SetWeather(2);
+        }
+        else if (Points >= 22)
+        {
+            SetWeather(1);
+        }
+        else if (Points >= 0)
+        {
+            SetWeather(0);
         }
     }
 

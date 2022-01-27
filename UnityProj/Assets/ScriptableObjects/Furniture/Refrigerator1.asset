@@ -9,15 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2968189b817f12a4f9e0c904ec31ff60, type: 3}
+  m_Script: {fileID: 11500000, guid: 5711bed39b696c6468c70d431d76dd1b, type: 3}
   m_Name: Refrigerator1
   m_EditorClassIdentifier: 
   furnitureName: "Lod\xF3wka"
   sprite: {fileID: 0}
-  price: 200
-  description: "Zwyk\u0142a lod\xF3wka"
-  extraPoints: 50
-  energyPrice: 20
+  price: 0
+  description: 
+  extraPoints: 0
+  energyPrice: 0
   waterPrice: 0
   gasPrice: 0
-  prefab: {fileID: 8024436171096087297, guid: 32724dca481525243a0426ac6dfca5ca, type: 3}
+  prefab: {fileID: 6097422234600117128, guid: 859d3d5a1f1aa944e9d2c9556bd46dee, type: 3}

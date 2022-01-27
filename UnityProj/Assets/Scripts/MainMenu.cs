@@ -4,17 +4,8 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
-
-
-    private void Start()
-    {
-        player.SetActive(false);
-    }
-
     public void StartGame()
     {
-        player.SetActive(true);
         gameObject.SetActive(false);
     }
 

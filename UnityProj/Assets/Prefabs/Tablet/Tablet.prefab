@@ -1759,6 +1759,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 21a682928ccf241418d8588ce3b4e392, type: 2}
   - {fileID: 11400000, guid: 3220823f3e39bd340a7dd21d455e0eb2, type: 2}
   - {fileID: 11400000, guid: 56e0a27d65c20a24387e3cf3c10ab6ce, type: 2}
+  - {fileID: 11400000, guid: 9f0c7b3079d6e8b41a4d7d9733f15c21, type: 2}
+  - {fileID: 11400000, guid: 72cf39de8db521e4ba3c076cd54a8043, type: 2}
   content: {fileID: 5290490152723451957}
   itemPrefab: {fileID: 6167474427892962107, guid: 4d9b6a74b4c42684eb2f6e282fb9bae9, type: 3}
 --- !u!1 &4318398645523873816

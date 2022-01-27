@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5711bed39b696c6468c70d431d76dd1b, type: 3}
+  m_Name: Prysznic
+  m_EditorClassIdentifier: 
+  furnitureName: Prysznic
+  sprite: {fileID: 0}
+  price: 500
+  description: '-'
+  extraPoints: 5
+  energyPrice: 0
+  waterPrice: 200
+  gasPrice: 0
+  prefab: {fileID: 6967562288761929820, guid: c81bbf6716e315943a18eec54f2a3006, type: 3}

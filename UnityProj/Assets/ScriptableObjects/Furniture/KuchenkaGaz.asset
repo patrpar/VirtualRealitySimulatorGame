@@ -16,7 +16,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   price: 1000
   description: Gazowa
-  extraPoints: 5
+  extraPoints: -5
   energyPrice: 0
   waterPrice: 0
   gasPrice: 150

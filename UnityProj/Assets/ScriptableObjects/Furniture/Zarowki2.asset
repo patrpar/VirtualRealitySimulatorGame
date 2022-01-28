@@ -16,7 +16,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   price: 50
   description: "Energooszcz\u0119dne \u017Car\xF3wki"
-  extraPoints: 0
+  extraPoints: -5
   energyPrice: 10
   waterPrice: 0
   gasPrice: 0

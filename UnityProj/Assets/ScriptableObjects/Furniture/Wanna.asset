@@ -16,7 +16,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   price: 500
   description: '-'
-  extraPoints: 15
+  extraPoints: 10
   energyPrice: 0
   waterPrice: 400
   gasPrice: 0

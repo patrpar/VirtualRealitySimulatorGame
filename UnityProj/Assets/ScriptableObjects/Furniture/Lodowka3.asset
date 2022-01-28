@@ -16,7 +16,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   price: 4000
   description: Klasa premium
-  extraPoints: 20
+  extraPoints: 10
   energyPrice: 400
   waterPrice: 0
   gasPrice: 0

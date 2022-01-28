@@ -14,12 +14,18 @@ public class GameManager : MonoBehaviour
 
     public int Money 
 	{ get { return money; } private set { money = value; tablet.SetMoneyText(value); } }
-    public int Points { get; private set; } = 53;
+    public int Points { get; private set; } = 50;
     public int EnergyCost { get; private set; } = 0;
     public int GasCost { get; private set; } = 0;
     public int WaterCost { get; private set; } = 100;
     public int WeatherLevel { get; private set; } = 3;
     private Tablet tablet;
+    public Material mat0;
+    public Material mat1;
+    public Material mat2;
+    public Material mat3;
+    public Material mat4;
+    public Light myLight;
 
 
     private void Awake()
@@ -79,34 +85,38 @@ public class GameManager : MonoBehaviour
         Money = Money - EnergyCost - GasCost - WaterCost;
         if (Money > 0) {
             //TODO wyświetlenie biura podróży
-            Debug.Log("biuro podróży");
+            Debug.Log("TODO biuro podróży");
         }
         else {
             //TODO wyświetlenie pracodawcy
-            Debug.Log("pracodawca");
+            Debug.Log("TODO pracodawca");
         }
 
     }
 
     public void SetWeather(int level)
     {
-        //TODO pogoda
         switch (level)
         {
             case 0:
-                Debug.Log("TODO: najlepsza pogoda");
+                RenderSettings.skybox = mat0;
+                myLight.intensity = 1;
                 break;
             case 1:
-                Debug.Log("TODO: dobra pogoda");
+                RenderSettings.skybox = mat1;
+                myLight.intensity = 0.75F;
                 break;
             case 2:
-                Debug.Log("TODO: standardowa pogoda");
+                RenderSettings.skybox = mat2;
+                myLight.intensity = 0.5F;
                 break;
             case 3:
-                Debug.Log("TODO: zła pogoda");
+                RenderSettings.skybox = mat3;
+                myLight.intensity = 0.25F;
                 break;
             case 4:
-                Debug.Log("TODO: najgorsza pogoda");
+                RenderSettings.skybox = mat4;
+                myLight.intensity = 0;
                 break;
         }
     }

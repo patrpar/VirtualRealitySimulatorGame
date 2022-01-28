@@ -16,7 +16,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   price: 25
   description: "Zwyk\u0142e \u017Car\xF3wki"
-  extraPoints: 10
+  extraPoints: 5
   energyPrice: 30
   waterPrice: 0
   gasPrice: 0

@@ -16,7 +16,7 @@ MonoBehaviour:
   sprite: {fileID: 0}
   price: 300
   description: Kuchenka mikrofalowa
-  extraPoints: 10
+  extraPoints: 5
   energyPrice: 80
   waterPrice: 0
   gasPrice: 0

@@ -1749,8 +1749,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   furnitures:
-  - {fileID: 11400000, guid: a81cecde3ceff244db719d87ab78abf6, type: 2}
+  - {fileID: 11400000, guid: 1daf6a0236d8c2c47ac7dc079713f49c, type: 2}
+  - {fileID: 11400000, guid: 197917b4cfc8e8a4cbc5bb3c92d8a6f6, type: 2}
   - {fileID: 11400000, guid: 179bbab7ca2146b42b8c8ac02d10f04b, type: 2}
+  - {fileID: 11400000, guid: 249c7df41c56d144a98ce0120f0618ee, type: 2}
+  - {fileID: 11400000, guid: 41cdf0fc7eb4565408267bc942c30632, type: 2}
+  - {fileID: 11400000, guid: 0002679ab616e1e4d9f8340d86985f4d, type: 2}
+  - {fileID: 11400000, guid: a652001f996802d498549fd8cdf397a9, type: 2}
+  - {fileID: 11400000, guid: 21a682928ccf241418d8588ce3b4e392, type: 2}
+  - {fileID: 11400000, guid: 3220823f3e39bd340a7dd21d455e0eb2, type: 2}
+  - {fileID: 11400000, guid: 56e0a27d65c20a24387e3cf3c10ab6ce, type: 2}
+  - {fileID: 11400000, guid: 9f0c7b3079d6e8b41a4d7d9733f15c21, type: 2}
+  - {fileID: 11400000, guid: 72cf39de8db521e4ba3c076cd54a8043, type: 2}
+  - {fileID: 11400000, guid: eea03bbe1c30ef34abc5f09f55e7b4a7, type: 2}
+  - {fileID: 11400000, guid: 6827b2be7b5aa2349b39993b2e29d5f2, type: 2}
+  - {fileID: 11400000, guid: 57ac973d037431445a2d791e49e2ad61, type: 2}
+  - {fileID: 11400000, guid: 572d602af89207846b53375194ea6fdb, type: 2}
+  - {fileID: 11400000, guid: 347fbe8e009994447a386137510c881c, type: 2}
+  - {fileID: 11400000, guid: fb725b68a07423e419f6686cce7561f5, type: 2}
   content: {fileID: 5290490152723451957}
   itemPrefab: {fileID: 6167474427892962107, guid: 4d9b6a74b4c42684eb2f6e282fb9bae9, type: 3}
 --- !u!1 &4318398645523873816
@@ -1849,7 +1865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8396226, g: 0.06732824, b: 0.06732824, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

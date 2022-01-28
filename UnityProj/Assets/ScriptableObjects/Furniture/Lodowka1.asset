@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5711bed39b696c6468c70d431d76dd1b, type: 3}
+  m_Name: Lodowka1
+  m_EditorClassIdentifier: 
+  furnitureName: "Lod\xF3wka tania"
+  sprite: {fileID: 0}
+  price: 600
+  description: "Ma\u0142a lod\xF3wka"
+  extraPoints: 5
+  energyPrice: 250
+  waterPrice: 0
+  gasPrice: 0
+  prefab: {fileID: 6097422234600117128, guid: 859d3d5a1f1aa944e9d2c9556bd46dee, type: 3}

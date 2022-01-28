@@ -12,6 +12,9 @@ public class Tablet : MonoBehaviour
 
     //Item preview view
     [SerializeField] private GameObject itemPreviewView;
+    
+    //Game ending view
+    [SerializeField] private GameObject gameEndingView;
     [SerializeField] private TextMeshProUGUI furnitureName;
     [SerializeField] private TextMeshProUGUI price;
     [SerializeField] private Image sprite;
@@ -20,6 +23,10 @@ public class Tablet : MonoBehaviour
     [SerializeField] private TextMeshProUGUI waterPrice;
     [SerializeField] private TextMeshProUGUI gasPrice;
     private PurchasableFurniture currentViewedFurniture;
+    [SerializeField] private TextMeshProUGUI energyCost;
+    [SerializeField] private TextMeshProUGUI waterCost;
+    [SerializeField] private TextMeshProUGUI gasCost;
+    [SerializeField] private TextMeshProUGUI wynikGry;
 
 
     private void Start()
@@ -28,6 +35,7 @@ public class Tablet : MonoBehaviour
         SetMoneyText(GameManager.Instance.Money);
         itemListView.SetActive(true);
         itemPreviewView.SetActive(false);
+        gameEndingView.SetActive(false);
     }
 
     public void SetMoneyText(int money)
@@ -42,12 +50,35 @@ public class Tablet : MonoBehaviour
         itemPreviewView.SetActive(true);
 
         furnitureName.text = purchasableFurniture.FurnitureName;
-        price.text = purchasableFurniture.Price.ToString();
+        price.text = purchasableFurniture.Price.ToString() + " zł";
         sprite.sprite = purchasableFurniture.Sprite;
         description.text = purchasableFurniture.Description;
         energyPrice.text = purchasableFurniture.EnergyPrice.ToString();
         waterPrice.text = purchasableFurniture.WaterPrice.ToString();
         gasPrice.text = purchasableFurniture.GasPrice.ToString();
+    }
+
+    public void EndGame()
+    {   
+        if (gameEndingView.active){
+            GameManager.Instance.EndGame();
+        }
+        else {
+            itemListView.SetActive(false);
+            itemPreviewView.SetActive(false);
+            gameEndingView.SetActive(true);
+            energyCost.text = GameManager.Instance.EnergyCost.ToString() + " zł";
+            gasCost.text = GameManager.Instance.GasCost.ToString() + " zł";
+            waterCost.text = GameManager.Instance.WaterCost.ToString() + " zł";
+            if (GameManager.Instance.Money - GameManager.Instance.EnergyCost - GameManager.Instance.GasCost - GameManager.Instance.WaterCost < 0)
+            {
+                wynikGry.text = "Nie stać cie na rachunki.\nNiestety, ale chyba musisz\nwziąć nadgodziny.";
+            }
+            else
+            {
+                wynikGry.text = "Super, udało ci sie spłacić rachunki.\nMożesz teraz wybrać się\nna wymarzone wakacje.";
+            }
+        }
     }
 
     public void BuyFurniture()
@@ -72,10 +103,5 @@ public class Tablet : MonoBehaviour
         currentViewedFurniture = null;
         itemListView.SetActive(true);
         itemPreviewView.SetActive(false);
-    }
-
-    public void EndGame()
-    {
-        GameManager.Instance.CalculateResult();
     }
 }

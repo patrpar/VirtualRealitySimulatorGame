@@ -56,43 +56,32 @@ public class GameManager : MonoBehaviour
         WaterCost += purchasableFurniture.WaterPrice;
         Points += purchasableFurniture.ExtraPoints;
 
-        if (Points >= 85)
+        if (Points >= 80)
         {
             SetWeather(4);
         }
-        else if (Points >= 64)
+        else if (Points >= 60)
         {
             SetWeather(3);
         }
-        else if (Points >= 43)
+        else if (Points >= 40)
         {
             SetWeather(2);
         }
-        else if (Points >= 22)
+        else if (Points >= 20)
         {
             SetWeather(1);
         }
-        else if (Points >= 0)
+        else
         {
             SetWeather(0);
         }
     }
 
-    public void CalculateResult()
-    {
-        Debug.Log("TODO: CalculateResult");
-        //TODO
-        Money = Money - EnergyCost - GasCost - WaterCost;
-        if (Money > 0) {
-            //TODO wyświetlenie biura podróży
-            Debug.Log("TODO biuro podróży");
-        }
-        else {
-            //TODO wyświetlenie pracodawcy
-            Debug.Log("TODO pracodawca");
-        }
-
-    }
+    // public void CalculateResult()
+    // {
+    //     Money = Money - EnergyCost - GasCost - WaterCost;
+    // }
 
     public void SetWeather(int level)
     {

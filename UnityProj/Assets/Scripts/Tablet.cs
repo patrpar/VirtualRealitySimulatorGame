@@ -58,7 +58,7 @@ public class Tablet : MonoBehaviour
             {
                 //Temporary
                 GameManager.Instance.AddPurchasedFurniture(currentViewedFurniture);
-                Instantiate(currentViewedFurniture.Prefab, transform.root.transform.position + transform.root.forward + Vector3.down, Quaternion.identity);
+                Instantiate(currentViewedFurniture.Prefab, transform.root.transform.position + transform.root.forward + Vector3.up * 0.12f, Quaternion.identity);
                 BackToStore();
 
                 Debug.Log("TODO: Buy");
